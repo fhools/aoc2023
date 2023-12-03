@@ -3,13 +3,13 @@
     "tasks": [
         {
             "type": "shell",
-            "command": "cargo run --release --bin day02",
+            "command": "cargo run --release --bin day03",
             "problemMatcher": ["$rustc"],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "label": "rust: cargo run --release --bin day02"
+            "label": "rust: cargo run --release --bin day03"
         }
     ]
 }
