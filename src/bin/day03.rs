@@ -158,20 +158,18 @@ fn main() {
     // ];
 
     if PART1 {
-        let mut grid = input
+        let grid = input
             .lines()
             .map(|l| l.chars().map(|c| c as char).collect::<Vec<char>>())
             .collect::<Vec<Vec<char>>>();
         let sum = parts_sum(&grid);
         println!("part1: {}", sum);
     } else {
-        let mut grid = input
+        let grid = input
             .lines()
             .map(|l| l.chars().map(|c| c as char).collect::<Vec<char>>())
             .collect::<Vec<Vec<char>>>();
         let sum = gear_sum(&grid);
         println!("part2: {}", sum);
     }
-
-    println!("part1: {}", 0);
 }
